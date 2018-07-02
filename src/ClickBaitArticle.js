@@ -6,7 +6,7 @@ class ClickBaitArticle extends Component{
         return(
 
             <div className="small-6 medium-3 columns other-article">
-              <a href="#">
+              <a >
                 <img src={this.props.article.image} alt={this.props.article.alt}/>
                 <p>{this.props.article.name}</p>
               </a>  

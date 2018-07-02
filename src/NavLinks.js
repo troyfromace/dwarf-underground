@@ -4,9 +4,9 @@ class NavLinks extends Component{
 render(){
     return(
             <div className="float-right nav-links">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Log in</a>
+              <a >Home</a>
+              <a >About</a>
+              <a >Log in</a>
             </div>
 
     )

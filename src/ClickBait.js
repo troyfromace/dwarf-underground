@@ -19,11 +19,12 @@ class ClickBait extends Component{
       ]
     }
   }
+  
     render(){
         return(
 <div className="small-12 columns other-articles">
             <h2>From around the Realm</h2>
-        {this.state.articles.map(currentArticle => <ClickBaitArticle article={currentArticle} />)}
+        {this.state.articles.map((currentArticle,i) => <ClickBaitArticle article={currentArticle} key={i} />)}
           </div>
         )
     }

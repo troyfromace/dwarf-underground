@@ -3,7 +3,7 @@ import LogoAxe from './LogoAxe'
 import NavLinks from './NavLinks'
 import HeaderText from './HeaderText'
 
-class Header extends React.Component{
+class Header extends Component{
 
     render(){
         return (
