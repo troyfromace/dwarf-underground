@@ -25,7 +25,7 @@ addForm = () => {
               <span className="article-link-text">Comments</span>
             </a>
            
-            <a className="article-link" >
+            <a className="article-link" href="http://www.facebook.com" target="_blank">
               <i className="fa fa-share"></i>
               <span className="article-link-text">Share Post</span>
             </a>
@@ -39,13 +39,13 @@ addForm = () => {
           <div   className="article-links">
           
           <a  onClick={this.addForm} className="article-link"   >
-            <i className="fa fa-comments-o"></i>
-            <span className="article-link-text">Comments</span>
+          <i className="fas fa-comments"></i>
+          <span className="article-link-text">      Comments</span>
           </a>
          
-          <a className="article-link" >
-            <i className="fa fa-share"></i>
-            <span className="article-link-text">Share Post</span>
+          <a className="article-link" href="http://www.facebook.com" target="_blank" >
+          <i className="fab fa-facebook-square"></i>
+            <span className="article-link-text">      Share Post</span>
           </a>
         </div>
         </div>
