@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CommentListItem from './CommentList'
+import CommentListItem from './CommentListItem'
 
 class CommentForm extends Component{
 
