@@ -5,14 +5,16 @@ class CommentForm extends Component{
 
     constructor() {
         super()
-        
+        this.oldComments=JSON.parse(localStorage.getItem('stringyArray'))
+        if(this.oldComments){
+            this.state= {comments: this.oldComments}
+        }
+        else{
         this.state = {
           comments: [],
-        }
-
-        
+        } 
+        } 
       }
-
 
     render(){
         return(
@@ -37,13 +39,9 @@ class CommentForm extends Component{
     addComment = (comment) => {
         const comments = [...this.state.comments]
         comments.push(comment)
-
-        this.setState({comments: comments})
-
+        localStorage.setItem('stringyArray', JSON.stringify(comments));
+        this.setState({comments: comments})   
     }
-
-    
-
 
 }
 
