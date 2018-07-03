@@ -18,9 +18,9 @@ addForm = () => {
       if(this.state.clicked){
         return(
           <div className="Holder">
-            <div  onClick={this.addForm} className="article-links">
+            <div   className="article-links">
             
-            <a  className="article-link"   >
+            <a  onClick={this.addForm} className="article-link"   >
               <i className="fa fa-comments-o"></i>
               <span className="article-link-text">Comments</span>
             </a>
@@ -36,9 +36,9 @@ addForm = () => {
       }
       return(
         <div className="Holder">
-          <div  onClick={this.addForm} className="article-links">
+          <div   className="article-links">
           
-          <a  className="article-link"   >
+          <a  onClick={this.addForm} className="article-link"   >
             <i className="fa fa-comments-o"></i>
             <span className="article-link-text">Comments</span>
           </a>
